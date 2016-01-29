@@ -1,0 +1,45 @@
+Authors@R: person("Sander", "Maijers", email = "S.N.Maijers+R-feat@gmail.com", role = c("aut", "cre"))
+ByteCompile: true
+BugReports: https://github.com/sanmai-NL/MScAnalysis/issues
+Classification/ACM-2012: 10010147.10010178.10010179, 10010147.10010257.10010258.10010259.10010263
+Depends:
+    R (< 4.0.0),
+    R (>= 3.2.1),
+    data.table (< 2.0.0),
+    data.table (>= 1.9.7),
+    methods
+Imports:
+    data.table (< 2.0.0),
+    data.table (>= 1.9.7),
+    e1071 (>= 1.6-7),
+    e1071 (< 2.0),
+    h2o (>= 3.6.0.8),
+    h2o (< 4.0.0.0),
+    dplyr (< 1.0.0),
+    dplyr (>= 0.4.3),
+    feat (< 1.0.0),
+    feat (>= 0.2.0),
+    futile.logger (< 2.0.0),
+    futile.logger (>= 1.4.1),
+    staticdocs (>= 0.1.0),
+    staticdocs (< 1.0.0),
+    htmlwidgets (< 1.0),
+    htmlwidgets (>= 0.5),
+    methods,
+    plotly (< 3.0.0),
+    plotly (>= 2.0.3),
+    stringi (< 2.0),
+    stringi (>= 1.0),
+    tidyr (< 1.0.0),
+    tidyr (>= 0.3.1)
+Description: What is the influence of linguistic structural (e.g., syntax) and surface (i.e., words) feature sets on the effectiveness of classifying Dutch court ruling documents? My MSc work.
+LazyData: true
+License: CC0
+NeedsCompilation: no
+Package: MScAnalysis
+Suggests:
+    testthat
+Title: Exploiting Linguistic Structure with Trail N-grams in Linguistic Networks to Classify Dutch Legal Texts
+URL: https://github.com/sanmai-NL/MScAnalysis
+Version: 0.1.0
+RoxygenNote: 5.0.1
